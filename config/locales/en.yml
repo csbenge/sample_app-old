@@ -30,8 +30,15 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
-  app_name: "Sample App"
+  hello:        "Hello world"
+  app_name:     "Sample App"
+  hdr_home:     "Home"
+  hdr_help:     "Help"
+  hdr_login:    "Login"
+  ftr_about:    "About"
+  ftr_contact:  "Contact"
+  ftr_help:     "Help"
+  sign_up:      "Sign Up"
 
 static_pages:
   home:
