@@ -8,5 +8,7 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
     assert_select "a[href=?]", static_pages_help_url
     assert_select "a[href=?]", static_pages_about_url
     assert_select "a[href=?]", static_pages_contact_url
+    get signup_path
+    assert_template 'users/new'
   end
 end
