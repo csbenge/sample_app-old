@@ -31,3 +31,9 @@
 
 en:
   hello: "Hello world"
+  app_name: "Sample App"
+
+static_pages:
+  home:
+  about:
+
